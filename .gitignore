@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch / ML models
+*.pt
+*.pth
+*.ckpt
+
+# Data files (avoid pushing large datasets)
+data/
+datasets/
+*.csv
+*.tsv
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# HuggingFace / Transformers cache
+.cache/
+huggingface/
+
+# Temporary files
+*.tmp
+*.swp
